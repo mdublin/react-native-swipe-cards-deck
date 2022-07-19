@@ -1,4 +1,5 @@
 # Swipe Cards Deck for React Native
+## THIS IS DUBLIN COPY!!!!!!!
 
 A swipping cards deck (similar to Tinder). This project is compatible with React Native 0.62+ (and probably older versions) & Expo projects (unlike others).
 
