@@ -2,10 +2,12 @@
 
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { View, Animated, PanResponder, ViewPropTypes } from "react-native";
+import { View, Animated, PanResponder } from "react-native";
 import Defaults from "./Defaults";
 import clamp from "clamp";
 import { styles } from "./Styles";
+import { ViewPropTypes } from "deprecated-react-native-prop-types";
+
 
 //Components could be unloaded and loaded and we will loose the users currentIndex, we can persist it here.
 let currentIndex = {};
